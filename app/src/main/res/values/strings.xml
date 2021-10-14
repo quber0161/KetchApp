@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">KetchApp</string>
+    <string name="ketchapp">KetchApp</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="aktivitet">Aktivitet</string>
+    <string name="grupper">Grupper</string>
+    <string name="venner">Venner</string>
+    <string name="minner">Minner</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KetchApp">
         <activity
+            android:name=".Start_Page"
+            android:exported="true" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
