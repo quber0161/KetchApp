@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KetchApp">
         <activity
+            android:name=".Testing"
+            android:exported="true" />
+        <activity
             android:name=".Start_Page"
             android:exported="true" />
         <activity

@@ -5,7 +5,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 
-
+import com.example.ketchapp.Fragments.Aktivitet;
+import com.example.ketchapp.Fragments.Grupper;
+import com.example.ketchapp.Fragments.Minner;
+import com.example.ketchapp.Fragments.Venner;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Start_Page extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
@@ -28,23 +31,25 @@ public class Start_Page extends AppCompatActivity implements BottomNavigationVie
 
 
 
+
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.Minner_Navigation:
-                getSupportFragmentManager().beginTransaction().replace(R.id.linearLayout, fragment_minner).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayout, fragment_minner).commit();
                 return true;
 
             case R.id.Venner_Navigation:
-                getSupportFragmentManager().beginTransaction().replace(R.id.linearLayout, fragment_venner).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayout, fragment_venner).commit();
                 return true;
 
             case R.id.Grupper_Navigation:
-                getSupportFragmentManager().beginTransaction().replace(R.id.linearLayout, fragment_grupper).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayout, fragment_grupper).commit();
                 return true;
 
             case R.id.Aktivitet_Navigation:
-                getSupportFragmentManager().beginTransaction().replace(R.id.linearLayout, fragment_aktivitet).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.FrameLayout, fragment_aktivitet).commit();
                 return true;
         }
 
